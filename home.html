@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial scale-1.0">
+<link rel="stylesheet" href="style.css"></link>
+<style>
+  body{
+  background-color : #87CEEB;
+  padding: 10px;
+  }
+  h1 {
+  color : black;
+  margin-left : 40px;
+  }
+  form{
+  max-width: 500px;
+  padding: 30px 20px;
+  }
+  input[type=text]{
+  width: 100%;
+  padding: 12px 2px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  border-bottom: 2px solid red;
+  }
+  img{
+  border-radius: 30%;
+  }
+</style>
+<title>food</title>
+</head>
+<body style="text-align:left;">
+<h1 style="text-align:center;font-family:courier;font-size:300%">FOOD</h1>
+<div id="flex" style="display:grid;place-items:center;">
+<img src="https://images.creativemarket.com/0.1.0/ps/2111939/1360/906/m1/fpnw/wm1/p2kaokzkwghdj7wyf6afcy9nw4kbe2wueogioqxdxq5r61ejvucdl9lgby4mwapo-.jpg?1484058312&s=077d09aeaf2dd1ff92da35fdaf7192a4" alt="Girl in a jacket" style="width:180px;height:100px;">
+</div>
+
+<div class="container">
+<form id="food">
+<label for="budget">Budget</label>
+<input type="number" min="0" id="budget" placeholder="Enter your budget"></input>
+</div>
+
+<fieldset style="box-shadow: 2px 5px 10px;">
+<div>
+<legend>Breakfast:</legend>
+<input type="text" id="breakfast" name="meal" required></input>
+</div>
+
+<div class="input-container">
+<legend>Lunch:</legend>
+<input type="text" id="breakfast" name="meal" required></input>
+</div>
+
+<div class="input-container">
+<legend>Dinner:</legend>
+<input type="text" id="breakfast" name="meal" required></input>
+</div>
+</fieldset>
+
+<div>
+<label for="dropdown">Fruits</label>
+<select id="dropdown">
+<option value="apple" selected>Apple</option>
+<option value="orange">Orange</option>
+<option value="grape">Grape</option>
+<option value="banana">Banana</option>
+<option value="water melon">Water melon</option>
+</select>
+</div>
+
+<h2 style="font-family:courier;font-size:160%">Name of guys</h2>
+<p>Who is a foodie among these guys?</p>
+
+<div style="font-size:120%">
+<input type="radio" name="radio" value="radio"></input>
+<label for="chike">Chike</label>
+</div>
+
+<div style="font-size:120%">
+<input type="radio" name="radio" value="radio"></input>
+<label for="sir t">Sir T</label>
+</div>
+
+<div style="font-size:120%">
+<input type="radio" name="radio" value="radio"></input>
+<label for="chike">Klassiq</label>
+</div>
+
+<div style="font-size:120%">
+<input type="radio" name="radio" value="radio"></input>
+<label for="chike">Roy</label>
+</div>
+
+<div style="font-size:120%">
+<input type="radio" name="radio" value="radio"></input>
+<label for="chike">Precious</label>
+</div>
+
+<div style="font-size:120%">
+<input type="radio" name="radio" value="radio"></input>
+<label for="chike">Princus</label>
+</div>
+
+<br></br>
+<fieldset>
+<label>NB: Not all these guys likes food so choose wisely!!!</label>
+</fieldset>
+<div style="text-align:right;padding: 2px 2px">
+ <button type="sumbit">Submit</button>
+</div>
+</form>
+</body>
+</html>
